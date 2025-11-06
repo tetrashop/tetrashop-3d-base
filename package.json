@@ -1,19 +1,19 @@
 {
-  "name": "tetrashop100-ui",
-  "version": "3.0.0",
-  "type": "module",
+  "name": "tetrashop-mono-repo",
+  "version": "1.0.0",
+  "description": "Tetrashop Mono-Repository - 3D Conversion + Ecommerce",
+  "private": true,
+  "workspaces": [
+    "apps/*"
+  ],
   "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "preview": "vite preview"
+    "dev:tetrashop": "npm run dev --workspace=tetrashop-ui",
+    "build:tetrashop": "npm run build --workspace=tetrashop-ui",
+    "dev:3d": "npm run dev --workspace=3d-app",
+    "build:3d": "npm run build --workspace=3d-app",
+    "deploy:tetrashop": "npm run deploy --workspace=tetrashop-ui"
   },
-  "dependencies": {
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "axios": "^1.5.0"
-  },
-  "devDependencies": {
-    "@vitejs/plugin-react": "^4.0.0",
-    "vite": "^4.4.0"
-  }
+  "keywords": ["tetrashop", "ecommerce", "3d", "conversion", "react"],
+  "author": "Tetrashop Team",
+  "license": "MIT"
 }
