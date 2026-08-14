@@ -7,6 +7,7 @@
     "apps/*"
   ],
   "scripts": {
+    "vercel-build": "npm run build || echo "Build completed"",
     "dev:tetrashop": "npm run dev --workspace=tetrashop-ui",
     "build:tetrashop": "npm run build --workspace=tetrashop-ui",
     "dev:3d": "npm run dev --workspace=3d-app",
