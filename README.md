@@ -100,3 +100,8 @@ MIT License
   <sub>ساخته شده با ❤️ توسط تیم TetraShop</sub>
 </div>
 <!-- Trigger deploy: Mon Aug 17 01:49:53 +0330 2026 -->
+
+## 🌐 دیپلوی
+
+- **URL:** [https://tetrashop-3d-base.vercel.app](https://tetrashop-3d-base.vercel.app)
+- **وضعیت:** ✅ فعال
